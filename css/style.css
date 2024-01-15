@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Transaction section */
+.transaction{
+ background-color: white;
+ width: 340px;
+ padding: 1.5rem;
+}
+.transaction h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.transaction .amount-value {
+  text-align: center;
+  margin-top: 6px;
+}
+.transaction .amount{
+  font-size: 3rem;
+  color: #ee6457;
+
+}
+.transaction .php {
+  color: #8d8686;
+}
+
+.transaction .last-updated {
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.9px;
+  margin-top: 0.7rem;
+  color: #232222;
+  display: flex;
+  justify-content: center;align-items: center;
+  /* margin-bottom: 7px; */
+}
+.transaction .last-updated img{
+  display: inline;
+  width: 35px;
+  opacity: 0.7;
+}
+
+.transaction ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: #232222;
+  font-size: 1rem;
+  border-top: 2px dashed rgb(180, 177, 177);
+  padding-top: 6px;
+  margin-top: 10px;
+}
+
+.view-more {
+  background-color: #f33e2f;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;justify-content: center;align-items: center;
+  margin-top: 1rem;
+  cursor: pointer;
+  
+}
+.view-more svg {
+  width: 30px;
+}
+
+.transaction .align-right{
+  display: flex;
+  justify-content: flex-end;
+
+}
