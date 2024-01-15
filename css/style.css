@@ -20,6 +20,94 @@ a {
 ul {
   list-style: none;
 }
+
+.menu{
+  min-width: 400px;
+  width: 450px;
+  /* height: 600px; */
+  background-image: linear-gradient(135deg,#e21f3d 10%,#ef4e3c);
+  padding: 1rem;
+  color: #fff;
+  border-radius: 3px;
+}
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.menu-header p{
+  border: 2px solid white;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+.menu-details {
+  margin-top: 1rem;
+}
+
+.menu-details .menu-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  /* gap: 8px; */
+}
+.menu-details .item-name{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-grow: 3; */
+}
+.menu-details .menu-item p{
+  /* flex-grow: 1; */
+}
+.fw-dotted{
+  /* margin: auto; */
+  /* display: inline-block; */
+  /* width: 100%; */
+  flex: 1;
+  border-bottom: 2px dashed white;
+  align-self: center;
+  margin: 0 5px;
+}
+
+.item-price {
+  text-align: left;
+  width: 100px;
+}
+
+.menu-cards {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.menu-card {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-card img {
+  width: 100px;
+  border-radius: 8px;
+  box-shadow: 1px 10px 11px 0px #1919197d;
+  transition: box-shadow 0.2s ease-in;
+}
+.menu-card img:hover {
+  box-shadow: 1px 10px 20px 7px #1919197d;
+}
+.menu-card p {
+  text-align: center;
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
+}
+
+
 /* survey section */
 .survey {
   width: 320px;
@@ -35,6 +123,7 @@ ul {
   width: 35px;
   opacity: 0.7;
 }
+
 .survey__details{
   display: flex; 
   /* flex-wrap: wrap; */
@@ -82,6 +171,7 @@ background-repeat: no-repeat;
 .book-now .book-btn {
   padding: 12px 48px;
   color: #eb591e;
+  background-color: #fff;
   font-size: 1rem;
   font-weight: bold;
   border-radius: 8px;
