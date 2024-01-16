@@ -525,10 +525,10 @@ background-color: rgb(126, 245, 126);
     margin:15px;
   }
   .border-lr {
-    white-space: nowrap; 
-  width: 120px; 
-  overflow: hidden;
-  text-overflow: ellipsis; 
+    font-size: 3vw;
+  }
+  footer {
+    font-size: 3.5vw;
   }
 }
 @media only screen and (max-width: 700px) {
