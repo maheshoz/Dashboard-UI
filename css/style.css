@@ -21,6 +21,87 @@ ul {
   list-style: none;
 }
 
+body{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #dbdbdb;
+}
+/* navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+nav .brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand img {
+  width: 80px;
+}
+.brand p {
+  font-size: 1.2rem;
+  padding-left: 5px;
+}
+.brand .bold {
+  font-weight: bold;
+  letter-spacing: 1.2px;
+} 
+.brand .normal-txt {
+  color: #292828;
+}
+
+.right .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid rgba(180, 176, 176, 0.719);
+  border-radius: 4px;
+  background-color: #fff;
+}
+.profile .gear-icon {
+  width: 25px;
+    padding: 0px;
+    margin: 5px;
+    cursor: pointer;
+}
+.profile .border-lr {
+  border-left: 1px solid #b0b0b0;
+    border-right: 1px solid #b0b0b0;
+    height: 100%;
+    display: flex; justify-content: center;align-items: center;
+    padding: 0 5px;
+}
+
+/* order-left: 1px solid #6b6b6b;
+    border-right: 1px solid #6b6b6b;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    top: 0px; */
+
+.right ul {
+ display: flex;
+ gap: 1rem;
+ height: 40px;
+}
+.right img {
+  width: 32px;
+  height: 100%;
+}
+/* footer section */
+footer {
+  font-size: 14px;
+  color: #242323;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+
 /* weekly menu list */
 .weekly-menu {
   width: 340px;
